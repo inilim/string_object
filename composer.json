@@ -1,0 +1,24 @@
+{
+  "name": "inilim/string_object",
+  "description": "string_object",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Inilim\\Object\\Type\\String\\": "src/"
+    },
+    "files": [
+    ]
+  },
+  "authors": [
+    {
+      "name": "inilim"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.2",
+    "inilim/string": "dev-main"
+  }
+}
